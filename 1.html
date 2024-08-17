@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <style>
+        body {
+            p{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            ul{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position: static;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore the World</h1>
+    <div>Your Adventure Starts Here</div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We are a leading travel agency offering amazing experiences to exotic locations around the world. Our team of experts ensures that your journey is smooth, enjoyable, and memorable.</p>
+    <p>Lets have a lead on life</p>
+</section>
+
+<section id="destinations">
+    <h2>Top Destinations</h2>
+    <ul>
+        <li>Bali, Indonesia</li>
+        <li>Paris, France</li>
+        <li>Maui, Hawaii</li>
+        <li>Kyoto, Japan</li>
+        <li>New York City, USA</li>
+    </ul>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="img/tour1.jpg" alt="Destination 1" title="Bali is aprovince of Indonesia and the westernmost of the Lesser Sunda Islands">
+    <img src="img/tour2.jpg" alt="Destination 2" title="A walk about Paris will provide lessons in history, beauty, and in the point of life">
+    <img src="img/tour3.jpg" alt="Destination 3" title="In Maui, time pauses to let you savor the present, and the horizon invites you to dream beyond the edges of the sea">
+    <img src="img/tour4.jpg" alt="Destination 4" title="There's nothing in Chinese culture that is an equivalent of the geisha. It's so different, so special to Japan">
+    <img src="img/tour5.jpg" alt="Destination 5" title="New York, a city that's always in motion">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <div>&copy; 2024 Explore the World. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
